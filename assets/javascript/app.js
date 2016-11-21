@@ -163,6 +163,7 @@ $(document).ready(function(){
             reset();
             $("#end").hide();
             $("#main").show();
+            $("#answer").html("");
             displayQuestions();
         });
     }
