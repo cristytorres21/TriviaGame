@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+    
+    <!-- link to Reset File -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- link to Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+	<!-- link to Style CSS File -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div id="container">
+		<h1>Disney Trivia</h1>
+		
+		<div class="center"><button id="start">Start Game!</button></div>
+		
+		<div class="center" id="end"><span id="final-score"></span><button id="play-again">Play Again</button></div>
+
+		<div id="main">
+
+			<div id="questions"></div>
+				
+			<div id="choices">
+				<input type="radio" name="choice" value = 0><span id="answer0"></span>
+				<br>
+				<input type="radio" name="choice" value = 1><span id="answer1"></span>
+				<br>
+				<input type="radio" name="choice" value = 2><span id="answer2"></span>
+				<br>
+				<input type="radio" name="choice" value = 3><span id="answer3"></span>
+			</div>
+			
+			<p class="center" id="stopwatch"></p>
+			<p  class="center" id="answer"></p>
+		</div>
+		</div>
+
+<!-- link to jQuery Library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<!-- link to Javascript File -->
+<script type="text/javascript" src="assets/javascript/app.js">
+	
+</script>
+
+</body>
+</html>
